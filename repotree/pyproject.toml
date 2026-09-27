@@ -1,0 +1,23 @@
+[project]
+name = "repotree"
+version = "0.1.0"
+description = "Summarize the directory structure of one or more repositories"
+requires-python = ">=3.11"
+dependencies = ["pathspec"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+repotree = "repotree.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

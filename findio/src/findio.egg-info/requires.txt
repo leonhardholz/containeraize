@@ -1,7 +1,0 @@
-litellm
-pathspec
-tree-sitter>=0.25
-tree-sitter-language-pack
-
-[dev]
-pytest

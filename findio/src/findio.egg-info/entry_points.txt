@@ -1,0 +1,2 @@
+[console_scripts]
+findio = findio.cli:main

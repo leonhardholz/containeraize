@@ -38,6 +38,7 @@ Stderr prints `walk` when the walk starts and `walk N` when it finishes. `N` is 
 ```
 repotree/
   pyproject.toml
+  README.md
   docs/design.md
   src/repotree/
     __init__.py           # scan
